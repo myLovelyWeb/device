@@ -9,8 +9,8 @@
 </head>
 <body class="page main-page">
   <h1 class="visually-hidden">Главная страница интернет-магазина «Device»</h1>
-  <div class="container">
-    <header class="page-header page__header">
+  <header class="page-header">
+    <div class="page-header__wrapper">
       <b class="logo page-header__logo">Device</b>
       <ul class="user-menu page-header__user-menu">
         <li class="user-menu__list-item">
@@ -55,9 +55,11 @@
           <li class="site-pages__list-item"><a class="site-pages__link">Контакты</a></li>
         </ul>
       </nav>
-    </header>
-    <main>
-      <section class="slider">
+    </div>
+  </header>
+  <main>
+    <section class="slider">
+      <div class="slider__wrapper">
         <h2 class="visually-hidden">Слайдер с популярными товарами</h2>
         <ul class="slider__list">
           <li id="slide-1" class="slide slide--active slider__slide">
@@ -129,8 +131,10 @@
           <li><button class="slider__control-btn" onclick="changeSlide(event, 'slide-2')"><span class="visually-hidden">Отобразить второй слайд</span></button></li>
           <li><button class="slider__control-btn" onclick="changeSlide(event, 'slide-3')"><span class="visually-hidden">Отобразить третий слайд</span></button></li>
         </ul>
-      </section>
-      <section class="popular">
+      </div>
+    </section>
+    <section class="popular">
+      <div class="popular__wrapper">
         <ul class="popular__list">
           <li>
             <a class="popular-link">
@@ -181,8 +185,10 @@
             </a>
           </li>
         </ul>
-      </section>
-      <section class="services">
+      </div>
+    </section>
+    <section class="services">
+      <div class="services__wrapper">
         <ul class="services__tab-controls">
           <li><button class="btn services__tab-btn content-box-component" onclick="changeTab(event, 'tab1')">Доставка</button></li>
           <li><button class="btn services__tab-btn content-box-component" onclick="changeTab(event, 'tab2')">Гарантия</button></li>
@@ -202,8 +208,10 @@
             <p>Залезть в долговую яму стало проще! Кредитные<br> консультанты подберут для вас наиболее выгодные<br> условия кредита. Выгодные для нашего банка, разумеется.</p>
           </li>
         </ul>
-      </section>
-      <section class="partners">
+      </div>
+    </section>
+    <section class="partners">
+      <div class="partners__wrapper">
         <h2 class="visually-hidden">Список партнёров-производителей:</h2>
         <ul class="partners__list">
           <li>
@@ -231,8 +239,10 @@
             </a>
           </li>
         </ul>
-      </section>
-      <div class="wrapper">
+      </div>
+    </section>
+    <section class="data">
+      <div class="data__wrapper">
         <section class="info">
           <h2>О нас</h2>
           <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
@@ -251,10 +261,10 @@
           <a class="btn info__btn link-to-modal-feedback" href="#">Напишите нам</a>
         </section>
       </div>
-    </main>
-  </div>
+    </section>
+  </main>
   <footer class="page-footer">
-    <div class="container">
+    <div class="page-footer__wrapper">
       <div class="wrapper page-footer__top">
         <b class="logo logo--yellow page-footer__logo">Device</b>
         <ul class="user-menu page-footer__user-menu">

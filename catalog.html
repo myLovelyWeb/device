@@ -9,8 +9,8 @@
 </head>
 <body class="page">
   <h1 class="visually-hidden">Каталог товаров интернет-магазина «Device»</h1>
-  <div class="container">
-    <header class="page-header">
+  <header class="page-header">
+    <div class="page-header__wrapper">
       <a class="logo page-header__logo" href="index.html">Device</a>
       <ul class="user-menu page-header__user-menu">
         <li class="user-menu__list-item">
@@ -56,16 +56,20 @@
           <li class="site-pages__list-item"><a class="site-pages__link">Контакты</a></li>
         </ul>
       </nav>
-    </header>
-    <main>
+    </div>
+  </header>
+  <main>
+    <div class="page__top-panel">
       <h1 class="page__title">Моноподы для селфи</h1>
       <ul class="breadcrumbs page__breadcrumbs">
         <li><a class="breadcrumbs__link" href="#">Главная</a></li>
         <li><a class="breadcrumbs__link">Каталог товаров</a></li>
         <li>Моноподы для селфи</li>
       </ul>
-      <section class="catalog">
-        <h2 class="visually-hidden">Каталог товаров:</h2>
+    </div>
+    <section class="catalog">
+      <h2 class="visually-hidden">Каталог товаров:</h2>
+      <div class="catalog__wrapper">
         <section class="catalog__filter">
           <h3 class="catalog__heading">Фильтр:</h3>
           <form class="filter" action="https://echo.htmlacademy.ru" method="get">
@@ -196,11 +200,11 @@
             <li><a class="pagination__link">Вперёд</a></li>
           </ul>
         </section>
-      </section>
-    </main>
-  </div>
+      </div>
+    </section>
+  </main>
   <footer class="page-footer">
-    <div class="container">
+    <div class="page-footer__wrapper">
       <div class="wrapper page-footer__top">
         <a class="logo logo--yellow page-footer__logo" href="index.html">Device</a>
         <ul class="user-menu page-footer__user-menu">
